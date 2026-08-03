@@ -8,5 +8,5 @@
 - [x] Run `npx prisma generate`
 - [x] Run `npx prisma migrate dev --name init` (created `next_prisma_crud` database + tables)
 - [x] Remove stale `prisma/dev.db` SQLite file
-- [x] Verify with `npm run build`
-
+- [x] Verify with `npm run build` (build succeeded, BUILD_ID generated)
+- [x] Confirm `.env` points to working MySQL (TiDB) connection string
